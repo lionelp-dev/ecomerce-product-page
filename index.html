@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header>
+    <a href="#">
+      <img src="./src/assets/images/logo.svg" alt="">
+    </a>
+    <nav class="nav">
+      <ul class="nav__container">
+        <li class="nav__item">Collections</li>
+        <li class="nav__item">Men</li>
+        <li class="nav__item">Women</li>
+        <li class="nav__item">About</li>
+        <li class="nav__item">Contact</li>
+      </ul>
+    </nav>
+    <a class="cart" href="">
+      <div style="background-image: url(./src/assets/images/icon-cart.svg);"></div>
+    </a>
+    <div class="avatar" style="background-image: url(./src/assets/images/image-avatar.png);"></div>
+  </header>
+
+  <section class="product">
+    <div class="left">
+      <div class="product__img">
+        <img src="./src/assets/images/image-product-1.jpg" alt="">
+        <img src="./src/assets/images/image-product-2.jpg" alt="">
+        <img src="./src/assets/images/image-product-3.jpg" alt="">
+        <img src="./src/assets/images/image-product-4.jpg" alt="">
+      </div>
+      <ul class="thumbnail">
+        <li><img src="./src/assets/images/image-product-1-thumbnail.jpg" alt=""></li>
+        <li><img src="./src/assets/images/image-product-2-thumbnail.jpg" alt=""></li>
+        <li><img src="./src/assets/images/image-product-3-thumbnail.jpg" alt=""></li>
+        <li><img src="./src/assets/images/image-product-4-thumbnail.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="description">
+        <span>Sneaker Company</span>
+        <h1>Fall Limited Edition Sneakers</h1>
+        <p>These low-profile sneakers are your perfect casual wear companion. Featuring a
+          durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      </div>
+      <div class="price">
+        <span>$125.00</span>
+        <span>50%</span>
+        <span>$250.00</span>
+      </div>
+      <div class="flex">
+        <div class="quantity">
+          <button>-</button> <span>3</span> <button>+</button>
+        </div>
+        <a class="add-to-cart" href="#">
+          <div class="add-to-cart__icon" style="background-image: url(./src/assets/images/icon-cart.svg);"></div>
+          <span class="add-to-cart__text-button">
+            Add to cart
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
